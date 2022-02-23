@@ -1,2 +1,2 @@
 # SilentBot
-Discord Bots
+Discord Bot Template
