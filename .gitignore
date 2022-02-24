@@ -1,0 +1,10 @@
+old rev/
+PyChatbot/
+Discord-AI-Chatbot/
+*.bak
+responses.txt
+Spotipy*
+cogs/music.py
+cogs/Spotipy*
+cogs/.*
+config.py
