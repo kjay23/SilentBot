@@ -1,0 +1,14 @@
+import os
+# Can be multiple prefixes, like this: ("!", "?")
+BOT_PREFIX = ("!", "s!")
+TOKEN = os.environ["DISCORD_TOKEN"]
+APPLICATION_ID = os.environ["APP_ID"]
+OWNERS = [420554438206554113, 739385570681290803]
+BLACKLIST = []
+
+# Bot colors
+main_color = 0xD75BF4
+error = 0xE02B2B
+success = 0x42F56C
+warning = 0xF59E42
+info = 0x4299F5
