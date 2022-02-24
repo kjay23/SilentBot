@@ -1,2 +1,2 @@
-# FelineAir
+# Silent Bot
 Discord Bots
