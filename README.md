@@ -1,2 +1,0 @@
-# SilentBot
-Discord Bot Template

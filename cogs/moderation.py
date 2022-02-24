@@ -89,6 +89,19 @@ class moderation(commands.Cog, name="moderation"):
             )
             await context.send(embed=embed)
 
+    @commands.command(name="unban")
+    async def unban(self, context, member: discord.Member, *args):
+        """
+        Unbans a user from the server.
+        """
+        banned_users = await context.guild.bans()
+        member_name, member_discriminator = member.split('#')
+
+        for ban_entry in banned_users:
+            user = ban_entry.user
+            if (user.name, user.discriminator) == (member_name, member_discriminator):
+              await context.guild.unban(user)
+
     @commands.command(name="ban")
     async def ban(self, context, member: discord.Member, *args):
         """
